@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.vendored_frameworks = '*.framework'
   
   # s.resource = 'FPSupport.bundle'
-  s.dependency 'ntesdf'
+  # s.dependency 'ntesdf'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'AVFoundation'
   # s.libraries = 'c++'
