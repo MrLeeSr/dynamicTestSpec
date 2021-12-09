@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '18300072196@163.com' => 'libin11@corp.netease.com' }
-  s.source           = { :git => 'https://github.com/MrLeeSr/testdf.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MrLeeSr/dynamicTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   # s.vendored_frameworks = '*.framework'
   
   # s.resource = 'FPSupport.bundle'
-  # s.dependency 'ntesdf'
+  s.dependency 'ntesdf'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'AVFoundation'
   # s.libraries = 'c++'
